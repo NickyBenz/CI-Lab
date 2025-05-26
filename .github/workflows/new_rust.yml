@@ -24,3 +24,8 @@ jobs:
       run:  |
         cd week2-data-structures
         cargo test --verbose
+    - doc: Generate documentation 
+      run: |
+        cd week2-data-structures 
+        cargo doc 
+      
