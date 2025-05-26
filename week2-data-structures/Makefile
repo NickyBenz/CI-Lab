@@ -16,4 +16,7 @@ lint:
 	cargo clippy 
 
 all:
-	build run test fmt lint 
+	cargo build 
+	cargo test 
+	cargo fmt
+	cargo clean  
